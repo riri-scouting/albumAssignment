@@ -1,0 +1,25 @@
+html, body {
+    margin: 0px;
+    height:100%;
+    width:100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#start{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#A{
+    flex:1;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    background-color: antiquewhite;
+}
+
+img{
+    width: 300px;
+    height:300px;
+}
