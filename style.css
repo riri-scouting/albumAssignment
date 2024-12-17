@@ -14,8 +14,7 @@ html, body {
 #A{
     flex:1;
     flex-direction: column;
-    height: 50%;
-    width: 50%;
+    width: 25%;
     background-color: antiquewhite;
 }
 
