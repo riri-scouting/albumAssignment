@@ -1,3 +1,11 @@
+let aud= document.getElementById("button1").children[0];
+let isPlaying= false;
+
 function playPause() {
-    var sound =rushika - Robbery and Bouquet (強盗と花束) (LyricsKanRomEng)
+    if (!isPlaying) {
+        aud.play();
+    } else {
+        aud.pause();
+    }
+    isPlaying= !isPlaying;
 }
